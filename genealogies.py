@@ -24,7 +24,7 @@ def genealogy_chains(d, layer = 1, upstream = []):
         
             for x in L:
 
-                if isinstance(x, dict) or is:
+                if isinstance(x, dict):
                     output.extend(genealogy_chains(x, layer+1, upstream))
 
                 elif isinstance(x, str) and "(C)" in x:
