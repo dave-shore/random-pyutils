@@ -1,2 +1,2 @@
 # random-pyutils
-Random Python functions anyone may found useful
+Random Python functions the future me (or anybody else) may found useful.
